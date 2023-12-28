@@ -1,0 +1,393 @@
+---
+import Icons from "../Icons.astro";
+import VideoSection from "../VideoSection.astro";
+import Metacore from "../Metacore.astro";
+import LogoDh from "../LogoDh.astro";
+import N26 from "../N26.astro";
+import Zalando from "../Zalando.astro";
+import Farfetch from "../Farfetch.astro";
+import Untile from "../Untile.astro";
+import IPVC from "../IPVC.astro";
+import Twitter from "../Twitter.astro";
+
+---
+
+<!-- 
+
+Add a section to see other newslettters
+
+Working Documents
+
+Since I wan't to start publishing more tools can have a section for it.
+Github Links can also be a thing perhaps
+-->
+
+
+<section>
+  <div class="p-4">
+    <div class="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-4 xl:grid-rows-2">
+      
+      <!-- Welcome Section -->
+      <div 
+      class="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-secondary shadow-xl dark:shadow-thick rounded-3xl p-8">
+        <div class="relative flex items-center gap-x-4">
+          <img
+            src="/images/SergioCover.jpg"
+            alt="Sérgio Laranjeira cover face"
+            class="h-10 w-10 rounded-full ring-1 dark:ring-white/10 ring-primary/5"
+          />
+          <div class="text-sm leading-6">
+            <p class="font-semibold text-primary dark:text-white">
+              <a href="www.laranjeira.pt">
+                <span class="absolute inset-0"></span>
+                 Sérgio Laranjeira
+              </a>
+            </p>
+            <p class="text-zinc-500 dark:text-zinc-400">
+              CTO @ Metacore
+            </p>
+          </div>
+        </div>
+        <p class="text-3xl mt-6 font-medium lg:text-6xl tracking-tight text-primary dark:text-white">
+          Hey, welcome!
+        </p>
+        <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
+          <br /> 
+          <br /> 
+          I'm an Engineering Leader currently working at <a href="https://metacoregames.com/" target="_blank" title="Metacore Games Website">Metacore</a> where we are developing games to entertain people for decades
+          <br />
+          <br />
+          
+           I'm originally from Portugal and I am currently living in Berlin with my wife.
+           <br />
+           <br /> 
+           I'm passionate about engineering management, leadership and software delivery. I strive to make a meaningful impact on organizations by delivering exceptional experiences to both internal and external customers.  I dedicate my time working with people, building a culture where individuals can be themselves and bringing great results to the business.  
+           <br /> <br /> 
+          <span
+          class="text-xl tracking-tight font-medium text-primary dark:text-white md:text-xl">
+
+            In parallel, I'm deeply committed to the cause of Diversity and Inclusion (D&I), I believe that fostering it is not just a moral imperative but also a strategic advantage, and I actively work to create inclusive workplaces, promote D&I at various events, and drive recruitment activities that promote diversity.
+            <br />
+            <br /> 
+          </span>
+          <span class="text-primary dark:text-white mt-4">Sérgio Laranjeira 2024</span>
+        </p>
+      </div>
+      <!-- EOF Welcome Section -->
+
+      <!-- Section for main Video -->
+      <section
+       class="ring-1 flex flex-col  hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+       <VideoSection></VideoSection>     
+      </section>
+      <!-- EOF Section for main Video -->
+      
+      <!-- Studies and Places I worked at -->
+      <div 
+    class="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 hover:ring-primary/5 bg-white dark:bg-secondary  dark:hover:ring-white/20 overflow-hidden duration-300 shadow-xl dark:shadow-thick rounded-3xl p-8">
+
+    <div class="mt-4" id="Metacore Games">
+    <div class="flex flex-wrap">
+      <div class="flex items-start">
+        <a href="https://metacoregames.com/" target="_blank" title="Metacore Website">
+        <Metacore></Metacore>
+        </a>
+      </div>
+      <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+      <span class="w-full text-pink-400 text-sm ">[From Jan 2024 onwards]</span> 
+      <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">Chief Technology Officer</span> 
+      <span class="w-full text-yellow-100 text-sm"> The game company where players are the closest thing to a boss </span>
+    </div>
+    </div>
+
+    <hr class="lg:mt-8 sm:mt-3">
+
+    <div class="mt-4" id="Delivery Hero">
+      <div class="flex flex-wrap">
+        <div class="flex items-start">
+          <a href="https://deliveryhero.com/" target="_blank" title="Delivery Hero Website">
+          <LogoDh></LogoDh>
+          </a>
+        </div>
+        <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+        <span class="w-full text-pink-400 text-sm ">[2020-2023]</span> 
+        <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">Senior Director of Engineering</span> 
+        <span class="w-full text-yellow-100 text-sm"> Global Food Delivery Company - Always delivering an amazing experience.  </span>
+      </div>
+    </div>
+
+    <hr class="lg:mt-8 sm:mt-3">
+
+    <div class="mt-4" id="N26">
+      <div class="flex flex-wrap">
+        <div class="flex items-start">
+          <a href="https://n26.com/en-de" target="_blank" title="N26 Neobank Website">
+          <N26></N26>
+          </a>
+        </div>
+        <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+        <span class="w-full text-pink-400 text-sm ">[2019-2020]</span> 
+        <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">[Interim] Director of Engineering</span> 
+        <span class="w-full text-yellow-100 text-sm"> N26 The Mobile Bank | Voted 'Best bank in the world 2023'  </span>
+      </div>
+    </div>
+
+    <hr class="lg:mt-8 sm:mt-3">
+
+    <div class="mt-4" id="Zalando">
+      <div class="flex flex-wrap">
+        <div class="flex items-start">
+          <a href="https://en.zalando.de/" target="_blank" title="Zalando Website">
+          <Zalando></Zalando>
+          </a>
+        </div>
+        <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+        <span class="w-full text-pink-400 text-sm ">[2016-2019]</span> 
+        <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">Engineering Manager</span> 
+        <span class="w-full text-yellow-100 text-sm"> Biggest Europe Fashion eCommerce  </span>
+      </div>
+    </div>
+
+    <hr class="lg:mt-8 sm:mt-3">
+
+    <div class="mt-4" id="Farfetch">
+      <div class="flex flex-wrap">
+        <div class="flex items-start">
+          <a href="https://www.farfetch.com/" target="_blank" title="Farfetch Website">
+          <Farfetch></Farfetch>
+          </a>
+        </div>
+        <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+        <span class="w-full text-pink-400 text-sm ">[2013-2016]</span> 
+        <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">Tech Lead</span> 
+        <span class="w-full text-yellow-100 text-sm"> FARFETCH - The Global Destination For Modern Luxury  </span>
+      </div>
+    </div>
+
+    <hr class="lg:mt-8 sm:mt-3">
+
+    <div class="mt-4" id="Untile">
+      <div class="flex flex-wrap">
+        <div class="flex items-start">
+          <a href="https://untile.pt/" target="_blank" title="Untile Website">
+          <Untile></Untile>
+          </a>
+        </div>
+        <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+        <span class="w-full text-pink-400 text-sm ">[2008-2013]</span> 
+        <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">Co-Founder and WebDeveloper</span> 
+        <span class="w-full text-yellow-100 text-sm"> Web Agency | Simplifying life, digitally  </span>
+      </div>
+    </div>
+
+    <hr class="lg:mt-8 sm:mt-3">
+
+    <div class="mt-4" id="IPVC">
+      <div class="flex flex-wrap">
+        <div class="flex items-start">
+          <a href="https://www.ipvc.pt/" target="_blank" title="IPVC Website">
+          <IPVC></IPVC>
+          </a>
+        </div>
+        <span class="w-full mt-1 text-sm font-medium text-primary dark:text-white"></span>
+        <span class="w-full text-pink-400 text-sm ">[2002-2006]</span> 
+        <span class="w-full italic text-lg text-gray-700 dark:text-gray-200 ">Computer Graphics Engineering</span> 
+        <span class="w-full text-yellow-100 text-sm"> Graduation  </span>
+      </div>
+    </div>
+      </div>
+      <!-- EOF Studies and Places I worked at -->
+
+      <!--Find me Section -->
+      <div 
+      class="ring-1 dark:ring-white/10 ring-primary/5 rounded-3xl justify-center shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
+        <div class="w-full">
+          <p class="text-xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
+            You can find me on
+          </p>
+        </div>
+
+        <!--ICONS -->
+        <div class="grid mt-10 grid-cols-4 md:grid-cols-8 lg:grid-cols-4 gap-y-4 gap-4 justify-center w-full">
+          <Icons></Icons>  
+        </div>
+
+        <div class="grid mt-10 w-full">
+          <Twitter></Twitter>
+        </div>
+        <div class="mt-5 text-white">
+          Happy to connect for networking, public speaking and mentorship, feel free to reach out by email.
+            <a href="mailto:sergio@laranjeira.pt" class="text-pink-400">
+            sergio@laranjeira.pt
+            </a>
+        </div>
+      </div>
+      <!--EOF Find me Section -->
+     
+      <!--README section -->
+      <div
+        class="ring-1 dark:ring-white/10  ring-primary/5 flex flex-col justify-center items-center rounded-3xl shadow-xl dark:shadow-thick p-8  bg-white dark:bg-secondary overflow-hidden text-center lg:text-left">
+        <div>
+          <p class="text-xl text-primary dark:text-white lg:text-6xl tracking-tight">
+            Want to know how I work?
+          </p>
+          <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 md:max-w-xs lg:max-w-none">
+             A Manager README is a document that allows me to introduce myself, communicate my management style, preferences, and expectations to my team and people. It's a way for me to provide transparency about my working style, values, and priorities.
+          </p>
+        </div>
+        <div class="w-full mt-8 md:max-w-xs lg:max-w-none">
+          <a href="https://managerreadme.com/readme/serlaranjeira" target="_blank" >
+            <button
+            type="submit"
+            class="text-xl py-2 w-full px-4 h-12 font-semibold focus:ring-2 rounded-lg bg-primary dark:bg-white dark:text-primary dark:hover:text-white hover:text-primary dark:hover:bg-white/5 hover:bg-primary/10 text-white flex duration-200 focus:ring-offset-2 focus:ring-inline-flex items-center justify-center">
+            My Readme
+            </button>
+          </a>
+        </div>
+
+        <p class="text-xl text-primary dark:text-white lg:text-2xl tracking-tight mt-5">
+          If you want you can also check a detailed CV
+        </p>
+        <div class="w-full mt-8 md:max-w-xs lg:max-w-none">
+          <a href="https://docs.google.com/document/d/e/2PACX-1vR1XYJEY9tMLCgNt3tKKOnr2L6HCeFeBlRIGT7GW5fHRjd168XbCG5BChyFqc7V9ZOmq3xLIrozU1sX/pub" target="_blank" >
+            <button
+            type="submit"
+            class="text-xl py-2 w-full px-4 h-12 font-semibold focus:ring-2 rounded-lg bg-primary dark:bg-white dark:text-primary dark:hover:text-white hover:text-primary dark:hover:bg-white/5 hover:bg-primary/10 text-white flex duration-200 focus:ring-offset-2 focus:ring-inline-flex items-center justify-center">
+           Read my Resumé
+            </button>
+          </a>
+        </div>
+        
+
+      </div>
+      <!--EOF README section -->
+
+      
+
+      <!--Newsletter -->
+      <div
+        class="ring-1 dark:ring-white/10 ring-primary/5 flex flex-col p-8 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-2 lg:row-start-4 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+
+        <div class="relative p-8 text-center w-full">
+          <p
+            class="text-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
+            Subscribe <span class="lg:block">to my newsletter</span>
+          </p>
+
+
+
+          <div id="mc_embed_shell">
+            <div id = "mc_embed_signup">
+              <form class="mt-6 sm:flex w-full lg:max-w-sm mx-auto validate" action="https://laranjeira.us8.list-manage.com/subscribe/post?u=7a18f3578863cac6420fa287a&amp;id=96f25ee710&amp;f_id=006910e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                <label for="email-address" class="sr-only">Email address</label>
+                <input
+                  type="email"
+                  name="EMAIL"
+                  id="mce-EMAIL"
+                  autocomplete="email"
+                  value=""
+                  required=""
+                  class="block w-full h-12 px-4 py-2 text-sm text-zinc-500 bg-zinc-100 dark:bg-tertiary ring-1 dark:ring-white/10 ring-primary/5 rounded-lg appearance-none focus:ring-white/20 placeholder-zinc-400 focus:border-zinc-300 focus:bg-primary focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  placeholder="Enter your email"
+                />
+                
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text text-white" > </span>
+
+                <div class="mt-4 sm:ml-2 sm:mt-0 sm:flex-shrink-0">
+                  <button
+                    type="submit"
+                    class="text-sm py-2 w-full px-4 h-12 font-semibold focus:ring-2 rounded-lg bg-primary dark:bg-white dark:text-primary dark:hover:text-white hover:text-primary dark:hover:bg-white/5 hover:bg-primary/10 text-white flex duration-200 focus:ring-offset-2 focus:ring-inline-flex items-center justify-between"
+                    >Subscribe</button
+                  >
+                </div>
+              </form>
+                <div id="mce-responses" class="clear foot w-full mt-2 ">
+                    <div class="response text-red-600" id="mce-error-response" style="display: none;"> Error Response</div>
+                    <div class="response text-green-600" id="mce-success-response" style="display: none;">Sucess Response</div>
+                </div>
+                
+                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                    <input type="text" name="b_7a18f3578863cac6420fa287a_96f25ee710" tabindex="-1" value="">
+                </div>
+
+                
+              
+            </div>
+          </div>
+
+          <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+          <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+        </div>
+
+        <div class="relative text-left w-full text-yellow-400">
+          <p>
+            I've started a monthly newsletter in where I share what I have learned in the last few weeks and how I am or will be applying those lessons in the future. Check this example and subscribe if you are interested:
+          </p>
+        </div>
+        <div class="relative text-left w-full mt-2">
+          <p class="text-2xl text-pink-500 dark:text-pink-400 w-auto">
+            <a class="group text-pink-500 transition-all duration-300 ease-in-out" 
+            href="https://medium.com/@serlaranjeira/path-to-leadership-45d530f73e21"
+            target="_blank"
+            title="Path to Leadership article on Medium.com">
+              <span class="bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                Path to Leadership
+              </span>
+            </a>
+          </p>
+        </div>
+
+      </div>
+      <!--EOF Newsletter -->
+      
+      <!--Latest Articles -->
+      <div
+        class="ring-1 dark:ring-white/10 ring-primary/5 shadow-xl dark:shadow-thick rounded-3xl p-8 lg:row-start-4 lg:col-span-2 h-full flex flex-col justify-between bg-white dark:bg-secondary">
+        <p
+          class="text-xl tracking-tight font-medium text-primary dark:text-white md:text-5xl">
+          Latest Articles on Medium.com
+        </p>
+
+    
+        <div class="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
+          <div class="mt-4">
+            <p class="text-2xl text-pink-500 dark:text-pink-400 w-auto">
+              <a class="group text-pink-500 transition-all duration-300 ease-in-out" 
+              href="https://medium.com/@serlaranjeira/path-to-leadership-45d530f73e21"
+              target="_blank"
+              title="Path to Leadership article on Medium.com">
+                <span class="bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Path to Leadership
+                </span>
+              </a>
+            </p>
+            <p class="text-xs mt-1 text-zinc-500">
+              <span class="block text-lg text-orange-500 dark:text-orange-300">Lessons learned from great leaders</span>
+              <span class="block text-xs">5 min read | published in Jan 4, 2017</span>
+            </p>
+          </div>
+          <div class="mt-10">
+            <p class="text-2xl text-pink-500 dark:text-pink-400 w-auto">
+              <a class="group text-pink-500 transition-all duration-300 ease-in-out" 
+              href="https://medium.com/@serlaranjeira/path-to-leadership-45d530f73e21"
+              target="_blank"
+              title="Path to Leadership article on Medium.com">
+                <span class="bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Path to Leadership
+                </span>
+              </a>
+            </p>
+            <p class="text-xs mt-1 text-zinc-500">
+              <span class="block text-lg text-orange-500 dark:text-orange-300">Lessons learned from great leaders</span>
+              <span class="block text-xs">5 min read | published in Jan 4, 2017</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Latest Articles -->
+
+    </div>
+  </div>
+</section>
