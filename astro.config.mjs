@@ -4,7 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import partytown from '@astrojs/partytown'
 export default defineConfig({
   site: 'https://laranjeira.pt/',
-  base: '/2024',
   integrations: [
     tailwind(),  
     sitemap(), 
@@ -13,7 +12,10 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     })
-  ]
+  ],
+  build: {
+    assetsPrefix: 'https://www.laranjeira.pt/2024'
+  }
 });
 
 
