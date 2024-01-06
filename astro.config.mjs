@@ -12,10 +12,7 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     })
-  ],
-  build: {
-    assetsPrefix: 'https://www.laranjeira.pt/2024'
-  }
+  ]
 });
 
 
