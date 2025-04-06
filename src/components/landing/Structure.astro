@@ -367,16 +367,46 @@ import Twitter from "../Twitter.astro";
       </div>
       <!--Latest Articles -->
     </div>
+
+
+    <!--Podcasts -->
+    <div class="ring-1 dark:ring-white/10 ring-primary/5 flex flex-col p-8 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-2 lg:row-start-4 bg-white dark:bg-secondary shadow-xl dark:shadow-thick mt-4">
+    
+      <div class="relative p-8 text-center w-full">
+        <p class="text-xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
+          Listen to some of my Podcasts
+        </p>
+      </div>
+      
+      <div class="mt-10">
+        <p class="text-2xl text-pink-500 dark:text-pink-400 w-auto">
+          <a class="group text-pink-500 transition-all duration-300 ease-in-out" 
+          href="#"
+          target="_blank"
+          title="Better Leadership">
+            <span class="bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+              Better Leadership
+            </span>
+          </a>
+        </p>
+        <p class="text-xs mt-1 text-zinc-500">
+          <span class="block text-lg text-orange-500 dark:text-orange-300">Description</span>
+          <span class="block text-xs">55 minues long | published in Oct 6, 2024</span>
+        </p>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
+
 <!-- Google tag (gtag.js) -->
-<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-6VXYQZ29S9"></script>
-<script type="text/partytown">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6VXYQZ29S9"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-6VXYQZ29S9');
 </script>
-
