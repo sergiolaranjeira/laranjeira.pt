@@ -1,5 +1,10 @@
-node_modules/*
-dist/*
+dist/
 .DS_Store
-.htaccess
-dist/index.html
+node_modules/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

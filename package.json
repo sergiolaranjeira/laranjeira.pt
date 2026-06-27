@@ -1,5 +1,5 @@
 {
-  "name": "@example/minimal",
+  "name": "laranjeira.pt",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,13 +10,19 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^3.0.3",
-    "@astrojs/tailwind": "^5.0.3",
+    "@astrojs/sitemap": "^3.7.3",
+    "@playwright/test": "^1.61.1",
     "@tailwindcss/typography": "^0.5.10",
-    "astro": "^4.0.4"
+    "@types/node": "^26.0.1",
+    "astro": "^7.0.0"
   },
   "dependencies": {
-    "@astrojs/partytown": "^2.0.3",
-    "@astrolib/seo": "^1.0.0-beta.5"
+    "@astrojs/partytown": "^2.1.7",
+    "@tailwindcss/vite": "^4.3.1",
+    "astro-seo": "^1.1.0",
+    "tailwindcss": "^4.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
